@@ -37,6 +37,7 @@
             left:50%;
             transform: translate(-50%, -50%);
             z-index: 2;
+            transition: 0.7s 0.3s;
         }
         span:hover~div:nth-of-type(2){  /*dach*/
             height: calc(50vh / 1.41) ;
@@ -45,34 +46,47 @@
             left:50%;
             transform: translate(-50%, -50%) rotate(45deg);
             background-color: black;
-            
+            transition: 0.9s 0.3s;
         }
-        span:hover~div:nth-of-type(3){  /*dach*/
+        span:hover~div:nth-of-type(3){  /*okno*/
             height: 10vh;
             width: 10vh;
-            top: calc(50% - 5%);
-            left:calc(50% - 5%);
+            top: calc(50% - 7%);
+            left:calc(50% - 7%);
             transform: translate(-50%, -50%);
             background-color: yellow;
             z-index: 3;
+            transition: 1.5s 0.3s;
         }
-        span:hover~div:nth-of-type(4){  /*dach*/
+        span:hover~div:nth-of-type(4){  /*okno*/
             height: 10vh;
             width: 10vh;
-            top: calc(50% - 5%);
-            left:calc(50% + 5%);
+            top: calc(50% - 7%);
+            left:calc(50% + 7%);
             transform: translate(-50%, -50%);
             background-color: yellow;
             z-index: 3;
+            transition: 1.5s 0.3s;
         }
-        span:hover~div:nth-of-type(5){  /*dach*/
+        span:hover~div:nth-of-type(5){  /*drzwi*/
             height: 10vh;
-            width: 10vh;
-            top: calc(50% - 5%);
-            left:calc(50% + 5%);
+            width: 7vh;
+            top: calc(50% + 10vh);
+            left:50%;
             transform: translate(-50%, -50%);
-            background-color: yellow;
+            background-color: #9C7CA5;
             z-index: 3;
+            transition: 1.3s 0.3s;
+        }
+        span:hover~div:nth-of-type(6){  /*komin*/
+            height: 5vh;
+            width: 10vh;
+            top: calc(50% - 32vh);
+            left:calc(50% + 10vh);
+            transform: translate(-50%, -50%) rotate(90deg);
+            background-color: #776258;
+            z-index: -1;
+            transition: 1.2s 0.3s;
         }
     </style>
 
